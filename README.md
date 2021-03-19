@@ -55,6 +55,7 @@ bash train_p_fconv_wmt17_en_de.sh N_GPUS GPU_IDS SCRATCH \
 To verify the performance of a trained model, run:
 
 ```bash
+cd bin/generate
 bash generate_p_fconv_wmt17_en_de.sh GPU_ID \
     /PATH/TO/DATA/wmt17_en_de/tokenized /PATH/TO/CHECKPOINT DIM
 ```
